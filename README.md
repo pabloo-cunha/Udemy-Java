@@ -8,7 +8,7 @@
 - Estrutura sequencial
 - Estrutura condicional
 - Estrutura Repetitiva
-- [*Introdução a Programação Orientada a Objetos (POO)](https://github.com/pabloo-cunha/Udemy-Java/tree/main/Programa%C3%A7%C3%A3o%20Orientada%20a%20Objeto)
+- [*Introdução a Programação Orientada a Objetos (POO)](https://github.com/pabloo-cunha/Udemy-Java/tree/vetores1.vetores/Programa%C3%A7%C3%A3o%20Orientada%20a%20Objeto)
 - Contrutores, Palavra this, sobrecarga, encapsulamento
 - Comportamento de memoria, arrays, List
 - Topicos especiais em Java: data-hora
