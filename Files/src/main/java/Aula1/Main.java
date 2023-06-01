@@ -1,8 +1,7 @@
-package academia;
+package Aula1;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
 import java.util.Scanner;
 
 public class Main {
