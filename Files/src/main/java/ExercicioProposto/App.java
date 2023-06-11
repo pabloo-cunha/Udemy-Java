@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class App {
+public class App implements Cloneable{
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -52,5 +52,7 @@ public class App {
 
             System.out.println("Error writing file: " + e.getMessage());
         }
+
+
     }
 }
