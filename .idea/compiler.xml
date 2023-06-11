@@ -9,6 +9,7 @@
         <module name="StringBuilder" />
         <module name="Files" />
         <module name="Enumerate" />
+        <module name="HerancaPolimorfismo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
