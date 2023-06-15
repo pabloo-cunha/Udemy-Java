@@ -6,7 +6,7 @@ public class Account {
 
     private Integer Number;
     private String holder;
-    private BigDecimal balance;
+    protected BigDecimal balance;
 
     public Account(Integer number, String holder, BigDecimal balance) {
         Number = number;
@@ -38,7 +38,7 @@ public class Account {
     }
 
     public void withdraw(BigDecimal amount){
-        balance.subtract(amount);
+        balance.subtract(amount.add(BigDecimal.valueOf(5.0)));
     }
 
     public void deposit(BigDecimal amount){
