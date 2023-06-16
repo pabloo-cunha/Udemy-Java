@@ -2,7 +2,7 @@ package aula1.entities;
 
 import java.math.BigDecimal;
 
-public class SavingsAccount extends Account{
+public final class SavingsAccount extends Account{
 
     private Double interestRate;
 
@@ -28,6 +28,6 @@ public class SavingsAccount extends Account{
 
     @Override
     public void withdraw(BigDecimal amount){
-        balance.subtract(amount);
+        balance = balance.subtract(amount);
     }
 }

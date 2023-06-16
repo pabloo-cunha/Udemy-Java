@@ -38,11 +38,11 @@ public class Account {
     }
 
     public void withdraw(BigDecimal amount){
-        balance.subtract(amount.add(BigDecimal.valueOf(5.0)));
+        balance = balance.subtract(amount.add(BigDecimal.valueOf(5.0)));
     }
 
     public void deposit(BigDecimal amount){
-        balance.add(amount);
+        balance = balance.add(amount);
     }
 
 

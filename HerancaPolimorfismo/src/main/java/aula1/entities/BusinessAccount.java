@@ -28,4 +28,10 @@ public class BusinessAccount extends Account{
         if (amount.compareTo(loanLimited) <= 0)
             deposit(amount);
     }
+
+    @Override
+    public void withdraw(BigDecimal amount){
+        super.withdraw(amount);
+        balance = balance.subtract(BigDecimal.valueOf(2.00));
+    }
 }
