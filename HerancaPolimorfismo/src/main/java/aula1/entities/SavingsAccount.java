@@ -2,7 +2,7 @@ package aula1.entities;
 
 import java.math.BigDecimal;
 
-public final class SavingsAccount extends Account{
+public class SavingsAccount extends Account{
 
     private Double interestRate;
 
