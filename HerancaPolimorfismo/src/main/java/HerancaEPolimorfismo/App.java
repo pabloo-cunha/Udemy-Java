@@ -1,8 +1,8 @@
-package aula1;
+package HerancaEPolimorfismo;
 
-import aula1.entities.Account;
-import aula1.entities.BusinessAccount;
-import aula1.entities.SavingsAccount;
+import HerancaEPolimorfismo.entities.Account;
+import HerancaEPolimorfismo.entities.BusinessAccount;
+import HerancaEPolimorfismo.entities.SavingsAccount;
 
 import java.math.BigDecimal;
 import java.util.Locale;

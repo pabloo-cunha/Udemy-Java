@@ -1,4 +1,4 @@
-package aula1.entities;
+package HerancaEPolimorfismo.entities;
 
 import java.math.BigDecimal;
 
