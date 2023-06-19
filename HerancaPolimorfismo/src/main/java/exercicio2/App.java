@@ -59,5 +59,7 @@ public class App {
         for (Product pdc: products){
             System.out.println(pdc.priceTag());
         }
+
+        sc.close();
     }
 }
