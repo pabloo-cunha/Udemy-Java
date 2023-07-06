@@ -1,7 +1,7 @@
-import entities.Department;
-import entities.HourContract;
-import entities.Worker;
-import entities.enums.WorkerLevel;
+import aula1.entities.Department;
+import aula1.entities.HourContract;
+import aula1.entities.Worker;
+import aula1.entities.enums.WorkerLevel;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

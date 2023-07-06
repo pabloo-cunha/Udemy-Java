@@ -1,5 +1,5 @@
-import entities.Comment;
-import entities.Post;
+import aula1.entities.Comment;
+import aula1.entities.Post;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,6 +1,6 @@
 package Application;
 
-import entities.Student;
+import aula1.entities.Student;
 
 import java.util.Locale;
 import java.util.Scanner;

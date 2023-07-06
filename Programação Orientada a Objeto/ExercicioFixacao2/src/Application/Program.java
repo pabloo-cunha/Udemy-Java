@@ -1,8 +1,7 @@
 package Application;
 
-import entities.Funcionario;
+import aula1.entities.Funcionario;
 
-import javax.xml.namespace.QName;
 import java.util.Locale;
 import java.util.Scanner;
 

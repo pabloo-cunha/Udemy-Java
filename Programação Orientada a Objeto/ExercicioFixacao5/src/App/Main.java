@@ -1,6 +1,6 @@
 package App;
 
-import entities.Account;
+import aula1.entities.Account;
 
 import java.util.Locale;
 import java.util.Scanner;

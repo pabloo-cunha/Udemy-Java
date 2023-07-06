@@ -1,6 +1,6 @@
 package vetores2;
 
-import entities.ProductVetores2;
+import aula1.entities.ProductVetores2;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 package Application;
 
-import entities.Retangule;
+import aula1.entities.Retangule;
 
 import java.util.Locale;
 import java.util.Scanner;
