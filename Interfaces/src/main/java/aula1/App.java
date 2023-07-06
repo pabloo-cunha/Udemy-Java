@@ -36,6 +36,7 @@ public class App {
 
         RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrasilTaxServices());
 
+
         rentalService.processInvoice(cr);
 
         System.out.println("FATURA: ");
