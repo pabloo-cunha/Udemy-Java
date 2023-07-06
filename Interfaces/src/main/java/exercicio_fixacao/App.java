@@ -3,6 +3,7 @@ package exercicio_fixacao;
 import exercicio_fixacao.entities.Contract;
 import exercicio_fixacao.entities.Installment;
 import exercicio_fixacao.service.ContractService;
+import exercicio_fixacao.service.PaypalService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -29,7 +30,7 @@ public class App {
         System.out.print("Entre com o numero de parcelas: ");
         int n = sc.nextInt();
 
-        ContractService contractService = new ContractService(null);
+        ContractService contractService = new ContractService(new PaypalService());
         contractService.processContract(obj, n);
 
 
