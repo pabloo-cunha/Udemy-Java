@@ -34,10 +34,8 @@ public class App {
         System.out.print("Entre com o preço por dia: ");
         double pricePerDay = sc.nextDouble();
 
-        RentalService rentalService = new RentalService(pricePerHour, pricePerDay, new BrasilTaxServices());
-
-
-        rentalService.processInvoice(cr);
+        RentalService rentalServices = new RentalService(pricePerHour, pricePerDay, new BrasilTaxServices());
+        rentalServices.processInvoice(cr);
 
         System.out.println("FATURA: ");
         System.out.println("Pagamento basico: " + String.format("%.2f", cr.getInvoice().getBasicPayment()));
